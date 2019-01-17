@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin id="cordova-plugin-url-scheme-fix"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        version="1.0.0">
+
+    <name>iOS URL Scheme Fix</name>
+    <description>Fixes issue with opening the app on the latest iOS via a URL scheme</description>
+    <keywords>UIApplicationDelegate</keywords>
+    <author>Digistorm</author>
+
+    <!-- cordova -->
+    <engines>
+        <engine name="cordova" version=">=3.6.0" />
+    </engines>
+
+    <!-- ios -->
+    <platform name="ios">
+        <header-file src="src/ios/AppDelegate+APPUrlSchemeFix.h" />
+        <source-file src="src/ios/AppDelegate+APPUrlSchemeFix.m" />
+    </platform>
+
+</plugin>

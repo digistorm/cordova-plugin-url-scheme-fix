@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-url-scheme-fix",
+  "version": "1.0.0",
+  "description": "Fixes issue with opening the app on the latest iOS via a URL scheme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "UIApplicationDelegate",
+    "cordova",
+    "ecosystem:cordova"
+  ],
+  "cordova": {
+    "id": "cordova-plugin-url-scheme-fix",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "platforms": [
+    "ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    }
+  ],
+  "author": "Digistorm"
+}
